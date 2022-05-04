@@ -2,7 +2,9 @@
 
 Para rodar o projeto basta usar: 
 
-```npm start```
+```
+npm start
+```
 
 Projetinho tratá-se de um estudo sobre React na implementação de uma lista de tarefas:
 
