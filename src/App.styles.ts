@@ -2,6 +2,11 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     background-color: #17181F;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/07/18/19/notebook-paper-1806473_1280.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
     color: #797A81;
     min-height: 100vh;
 `;
@@ -13,11 +18,9 @@ export const Area = styled.div`
 `;
 
 export const Header = styled.h1`
-    margin: 0;
-    padding: 0;
-    color: #FFF;
+    color: #000;
     text-align: center;
-    border-bottom: 1px solid #444;
-    padding-bottom: 20px;
+    padding: 10px 0px 25px;
+    text-transform: uppercase;
 `;
 
